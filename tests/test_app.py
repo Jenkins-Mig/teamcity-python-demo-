@@ -18,12 +18,3 @@ def test_version():
     version = get_version()
     assert version is not None
     assert len(version) > 0
-```
-
----
-
-**`requirements.txt`**
-```
-pytest==7.4.0
-pytest-cov==4.1.0
-flake8==6.1.0
