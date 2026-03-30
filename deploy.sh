@@ -21,7 +21,7 @@ cp app.py "${DEPLOY_DIR}/"
 cp requirements.txt "${DEPLOY_DIR}/"
 
 echo "[3/4] Installing dependencies..."
-pip install -r requirements.txt -q
+pip3 install -r requirements.txt -q --break-system-packages
 
 echo "[4/4] Starting application..."
 cd "${DEPLOY_DIR}"
