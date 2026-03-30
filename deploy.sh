@@ -25,7 +25,7 @@ pip3 install -r requirements.txt -q --break-system-packages
 
 echo "[4/4] Starting application..."
 cd "${DEPLOY_DIR}"
-python app.py
+python3 app.py
 
 echo "========================================"
 echo "  Deployment SUCCESSFUL"
